@@ -1,8 +1,8 @@
 package entities;
 public class Employee {
 
-    private int id;
-    private String name;
+    private final int id;
+    private final String name;
     private double salary;
 
     public Employee(int id, String name, double salary) {
@@ -18,14 +18,6 @@ public class Employee {
 
     public int getId() {
         return id;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
     }
 
     public void increaseSalary(double percentage) {

@@ -103,7 +103,7 @@ public class Main {
 
         for (Employee anyEmployee : employees) {
             System.out.println(anyEmployee);
-        };
+        }
 
         sc.close();
     }
